@@ -6,16 +6,19 @@
 <title>Jessica Böhmer — Fahnen-Entwurf</title>
 <style>
   :root {
+    --bg: #FAF7F3;
     --chocolate: #120A04;
     --peach: #E7A995;
-    --peach-dim: rgba(231, 169, 149, 0.55);
+    --ink: #2A1F17;
+    --ink-dim: rgba(42, 31, 23, 0.55);
+    --line: rgba(42, 31, 23, 0.12);
   }
 
   * { box-sizing: border-box; margin: 0; padding: 0; }
 
   html, body {
-    background: var(--chocolate);
-    color: var(--peach);
+    background: var(--bg);
+    color: var(--ink);
     font-family: 'Cormorant Garamond', 'Didot', 'Bodoni 72', Georgia, serif;
     font-weight: 300;
     letter-spacing: 0.02em;
@@ -43,7 +46,7 @@
     font-size: 11px;
     text-transform: uppercase;
     letter-spacing: 0.35em;
-    color: var(--peach-dim);
+    color: var(--ink-dim);
     margin-bottom: 20px;
   }
 
@@ -57,7 +60,7 @@
   .subtitle {
     font-family: 'Inter', system-ui, sans-serif;
     font-size: 14px;
-    color: var(--peach-dim);
+    color: var(--ink-dim);
     line-height: 1.6;
     font-weight: 300;
   }
@@ -73,8 +76,10 @@
     height: auto;
     display: block;
     box-shadow:
-      0 10px 40px rgba(0, 0, 0, 0.6),
-      0 30px 120px rgba(231, 169, 149, 0.06);
+      0 2px 8px rgba(18, 10, 4, 0.08),
+      0 20px 60px rgba(18, 10, 4, 0.18),
+      0 40px 120px rgba(18, 10, 4, 0.12);
+    border-radius: 2px;
   }
 
   .specs {
@@ -84,8 +89,8 @@
     width: 100%;
     max-width: 720px;
     padding: 32px 0;
-    border-top: 1px solid rgba(231, 169, 149, 0.15);
-    border-bottom: 1px solid rgba(231, 169, 149, 0.15);
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
     font-family: 'Inter', system-ui, sans-serif;
   }
 
@@ -99,27 +104,27 @@
     font-size: 10px;
     text-transform: uppercase;
     letter-spacing: 0.28em;
-    color: var(--peach-dim);
+    color: var(--ink-dim);
   }
 
   .spec-value {
     font-size: 15px;
-    color: var(--peach);
+    color: var(--ink);
     font-weight: 300;
   }
 
   footer {
     font-family: 'Inter', system-ui, sans-serif;
     font-size: 12px;
-    color: var(--peach-dim);
+    color: var(--ink-dim);
     text-align: center;
     letter-spacing: 0.1em;
   }
 
   footer a {
-    color: var(--peach);
+    color: var(--ink);
     text-decoration: none;
-    border-bottom: 1px solid var(--peach-dim);
+    border-bottom: 1px solid var(--ink-dim);
     padding-bottom: 1px;
   }
 </style>
