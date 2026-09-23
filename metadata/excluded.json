@@ -1,0 +1,66 @@
+[
+  {
+    "id": "nigiri-sake",
+    "category": "nigiri",
+    "name": "Sake",
+    "description": "Lachs",
+    "description_en": "Salmon",
+    "excluded": true
+  },
+  {
+    "id": "nigiri-ebi",
+    "category": "nigiri",
+    "name": "Ebi",
+    "description": "Tiger Garnele",
+    "description_en": "Tiger prawn",
+    "excluded": true
+  },
+  {
+    "id": "nigiri-unagi",
+    "category": "nigiri",
+    "name": "Unagi",
+    "description": "Wasseraal",
+    "description_en": "Freshwater eel",
+    "excluded": true
+  },
+  {
+    "id": "nigiri-tamago",
+    "category": "nigiri",
+    "name": "Tamago",
+    "description": "Japanisches Omelett",
+    "description_en": "Japanese omelet",
+    "excluded": true
+  },
+  {
+    "id": "maki-kappa",
+    "category": "maki",
+    "name": "Kappa",
+    "description": "Gurke",
+    "description_en": "Cucumber",
+    "excluded": true
+  },
+  {
+    "id": "maki-avocado",
+    "category": "maki",
+    "name": "Avocado",
+    "description": "Avocado",
+    "description_en": "",
+    "excluded": true
+  },
+  {
+    "id": "sashimi-maguro",
+    "category": "sashimi",
+    "name": "Maguro",
+    "description": "Thunfisch",
+    "description_en": "Tuna",
+    "excluded": true
+  },
+  {
+    "id": "special-rolls-dynastie-roll",
+    "category": "special-rolls",
+    "name": "Dynastie Roll",
+    "description": "Garnelen Tempura, flambierter Lachsmantel, Avocado, Frischkäse, Sesam, Lauch, Teriyaki Soße, Spicy Mayonnaise",
+    "description_en": "Shrimp tempura, flambéed salmon, avocado, cream cheese, sesame, chives, teriyaki sauce, spicy mayo",
+    "excluded": true
+  }
+]
